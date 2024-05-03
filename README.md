@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+# Popoyoko-UI-Boilerplate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+## This is the **Boilerplate Repo**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository is designed for developers who want to create an application using Popoyoko-UI and Popoyoko-UI-Token-Generator.
 
-## Expanding the ESLint configuration
+📦 [popoyoko-ui **package branch**](https://github.com/Popoyoko/popoyoko-ui/tree/package) <= Here is the build of the component library
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+🕹️ [Here is the **storybook**](https://popoyoko.github.io/popoyoko-ui/) <= Here's the Storybook for viewing components
 
-- Configure the top-level `parserOptions` property like this:
+📦 [Popoyoko-UI-Token-Generator](https://github.com/Popoyoko/popoyoko-ui/tree/dev-package) <= Here is the token generator
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+
+## This reportory is using bun instead of npm
+
+🏴‍☠️ [Install **BUN** here](https://bun.sh/)
+
+```bash
+bun run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Runs the vite application in development mode.
+
+The page will be reloaded if you make any changes.
+You will also see all lint errors in the console.
+
+```bash
+bun run build
+```
+
+Builds the application for production in the build folder.
+
+```bash
+bun run preview
+```
+
+Launch a local development server that allows to preview the application under development.
+
+```bash
+bun run token-generator
+```
+
+Uses the Popoyoko-UI-Token-Generator to create your tokens 
+
