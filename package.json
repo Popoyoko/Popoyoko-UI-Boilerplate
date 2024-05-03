@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "build:tokens": "bun generateTokens.js"
+    "token-generator": "bun generateTokens.js"
   },
   "dependencies": {
     "popoyoko-ui-token-generator": "git@github.com:Popoyoko/Popoyoko-UI-Token-Generator.git",
