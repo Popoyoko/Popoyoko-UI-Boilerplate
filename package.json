@@ -11,10 +11,10 @@
     "token-generator": "bun generateTokens.js"
   },
   "dependencies": {
+    "popoyoko-ui": "git@github.com:Popoyoko/popoyoko-ui.git#package",
     "popoyoko-ui-token-generator": "git@github.com:Popoyoko/Popoyoko-UI-Token-Generator.git",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "vite-popoyoko": "git@github.com:Popoyoko/popoyoko-ui.git#package"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
