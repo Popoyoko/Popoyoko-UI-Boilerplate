@@ -1,9 +1,9 @@
 {
   "name": "popoyoko-ui-boilerplate",
   "bin": {
-    "popoyoko-boilerplate": "./bin/install.ts"
+    "popoyoko-boilerplate": "./bin/install.js"
   },
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
