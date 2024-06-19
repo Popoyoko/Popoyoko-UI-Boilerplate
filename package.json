@@ -1,5 +1,8 @@
 {
   "name": "popoyoko-ui-boilerplate",
+  "bin": {
+    "popoyoko-boilerplate": "./bin/install.js"
+  },
   "private": true,
   "version": "0.0.0",
   "type": "module",
